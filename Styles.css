@@ -1,0 +1,56 @@
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #dddddd;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	font-family: "Calibri", sans-serif;
+	display: block;
+	color: black;
+	padding: 1em;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #f7b611
+}
+
+.active{
+	background-color: #f7e411;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: "Calibri", sans-serif;
+	color: #06559e;
+	}
+
+.friendtext{
+	font-family: "Comic Sans MS", sans-serif;
+	color: green;
+}
+
+.foetext{
+	font-family: "Impact", fantasy;
+	font-weight: 200;
+	font-variant: small-caps;
+	color: crimson;
+}
+
+p{
+	font-family: "Calibri", sans-serif;
+}
